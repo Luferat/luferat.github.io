@@ -10,7 +10,7 @@ textarea:focus, input:focus { outline: none; }
 header { display: flex; justify-content: space-between; align-items: center; background: white; flex-wrap: wrap; height: 7rem; }
 header > a { display:flex; justify-content: space-between; align-items: center; color: black; text-decoration: none; }
 header > a:hover, .active { background: red; color: white; text-decoration: none; }
-header > a img { width: 150px; height: 7rem; } 
+header > a img { width: auto; height: 7rem; } 
 header > a h1 { margin: 0 1rem; letter-spacing: .2rem; text-align: center; }
 header > a small { display: block; font-size: 42%; letter-spacing: 0; font-weight: normal; }
 #header-wrap { display: flex; flex-direction: column; justify-content: space-between; align-itens: center; height: 100%; }
